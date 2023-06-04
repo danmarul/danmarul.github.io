@@ -8,9 +8,10 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     margin: 0;
     padding: 0;
+    overflow-x:  hidden;
 }
 
 .navbar-w-logo {
@@ -39,6 +40,11 @@ body {
         display: block;
         cursor: pointer;
         margin-left: 1rem;
+    }
+
+    .movement {
+        align-items: center;
+        max-width: 85%;
     }
 }
 
@@ -155,6 +161,7 @@ margin: 0;
         width: 40rem;
         display: block;
         margin: 0;
+        max-width: 100%;
     }
 }
 
